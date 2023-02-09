@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:3000
+
+### GET ALL BOOKS
+GET {{baseUrl}}/books
+content-type: application/json
+
+### ADD A BOOK
+POST {{baseUrl}}/books
+content-type: application/json
+
+{
+"title": "Libro2"
+}
+
+### DELETE A BOOK
+DELETE {{baseUrl}}/books/Libro2
+content-type: application/json
+
+
